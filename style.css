@@ -1,0 +1,40 @@
+body{
+    font-family: 'Rakkas', cursive, 'Helvetica';
+    margin: 0;
+    color: #4f4f4f;
+}
+#main {
+    display: flex;
+    background-color: gainsboro;
+    flex-direction: column;
+    align-items: center;
+}
+h1, h2{
+    color: #353535;
+}
+#img-div{
+    background-color: white;
+    margin-bottom: 20px;
+}
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    border: 15px white solid;
+    border-bottom: 0;
+}
+#img-caption{
+    font-size: 0.8em;
+    padding: 2px 0 2px 20px;
+}
+#tribute-info{
+    display: inherit;
+    flex-direction: column;
+    max-width: 75vw;
+    padding: 0 20px;
+    background-color: white;
+}
+strong{
+    color: #353535;
+}
+
